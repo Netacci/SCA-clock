@@ -9,6 +9,10 @@ body {
   padding: 1px;
   overflow: hidden;
 }
+.container{
+    padding: 5%;
+}
+  
 
 .clock {
   padding: 1px;
@@ -41,5 +45,8 @@ body {
     width: 35%;
     margin-left: 34%;
   }
+  .container{
+    padding: 0;
+}
 
 }
