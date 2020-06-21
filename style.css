@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #031527, transparent);
+}
+
+.clock {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.clockdisplay {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  border: 2px solid #f4f6ff;
+  width: 25%;
+  margin-top: 21%;
+
+}
