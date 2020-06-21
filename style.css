@@ -5,7 +5,7 @@
 }
 
 body {
-  background: linear-gradient(to right, #031527, transparent);
+  background: linear-gradient(to right, #76a6d6, transparent);
   padding: 1px;
   overflow: hidden;
 }
@@ -18,14 +18,14 @@ body {
 .clockdisplay {
   text-align: center;
   font-size: 2rem;
-  color: #fff;
-  border: 2px solid #f4f6ff;
-  padding: 3%;
-  margin-top: 21%;
-  width: 100%;
-  background: #353e54;
-  box-shadow: 0px 1px 10px 3px #333;
+  font-weight: 700;
+  color: rgb(108, 159, 175);
+  margin-top: 5%;
+}
 
+.container {
+  padding: 5%;
+  margin-top: 10%;
 }
 
 .clock-title {
@@ -33,13 +33,5 @@ body {
   font-weight: 600;
   text-align: center;
   color: #0b0f13;
-
-}
-
-@media all and (min-width:700px) {
-  .clockdisplay {
-    width: 35%;
-    margin-left: 34%;
-  }
 
 }
